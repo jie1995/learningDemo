@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Version 1.0
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"Scheduled"})
+@ComponentScan(basePackages = {"RabbitMQ.HelloWorldMode"})
 public class LearningNotesApplication {
     public static void main(String[] args) {
         SpringApplication.run(LearningNotesApplication.class,args);

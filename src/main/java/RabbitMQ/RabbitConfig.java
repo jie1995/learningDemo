@@ -1,4 +1,4 @@
-package RabbitMQ.HelloWorldMode;
+package RabbitMQ;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
@@ -13,11 +13,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-    public static final String MIAOSHA_QUEUE = "hello";
+    public static final String HELLO_QUEUE = "hello";
 
     @Bean
     public Queue helloQueue(){
-        return new Queue(MIAOSHA_QUEUE,true);
+        return new Queue(HELLO_QUEUE,true);
     }
 
 }

@@ -6,6 +6,7 @@ package designMode.strategyDesignMode.strategy;
  * @Version 1.0
  */
 public class DogBehavier implements Behavier {
+    @Override
     public void move() {
         System.out.println("I belong to the ground");
     }
